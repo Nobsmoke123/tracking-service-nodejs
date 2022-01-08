@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "asset-tracker",
+  "entities": ["dist/entity/*.js"],
+  "logging": true,
+  "synchronize": true,
+  "useUnifiedTopology": true
+}
